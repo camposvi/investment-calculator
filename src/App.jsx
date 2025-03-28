@@ -1,6 +1,12 @@
 import Header from './components/Header/Header';
+import UserInput from './components/User/UserInput';
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <UserInput />
+    </>
+  );
 }
 
 export default App;
